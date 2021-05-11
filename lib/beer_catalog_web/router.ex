@@ -7,5 +7,6 @@ defmodule BeerCatalogWeb.Router do
 
   scope "/api", BeerCatalogWeb do
     pipe_through :api
+    resources "/beers", BeerController, except: [:new, :edit]
   end
 end

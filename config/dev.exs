@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :beer_catalog, BeerCatalog.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "manoj",
+  password: "",
   database: "beer_catalog_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
